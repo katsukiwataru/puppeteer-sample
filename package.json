@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsukiwataru/puppeteer-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsukiwataru/puppeteer-sample/issues"
+  },
+  "homepage": "https://github.com/katsukiwataru/puppeteer-sample#readme",
+  "dependencies": {
+    "puppeteer": "^4.0.1"
+  }
+}
