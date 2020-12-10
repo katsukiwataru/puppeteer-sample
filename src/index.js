@@ -6,6 +6,8 @@ const puppeteer = require('puppeteer');
   // page URL トップページへ
   await page.goto('https://www.nttdocomo.co.jp/support/shop/');
 
+  const allShopInfo = {}
+
   // button ref　地図のボタンクリック
   await page.click('#psearcherr2');
 
@@ -34,7 +36,7 @@ const puppeteer = require('puppeteer');
   await page.goto(districtURLList[0]);
 
   // prefecture page selector
-  const shopPageSelector =　".table-cmn";
+  const shopPageSelector =　".table-cmn > tbody > tr";
 
   // get district URL　店舗取得
   const shopList = await page.evaluate((selector) => {
