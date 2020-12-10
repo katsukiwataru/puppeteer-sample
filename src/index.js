@@ -46,7 +46,5 @@ const puppeteer = require('puppeteer');
 
   console.log(shopList);
 
-  await page.screenshot({path: 'example.png'});
-
   await browser.close();
 })();
