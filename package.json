@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/katsukiwataru/puppeteer-sample#readme",
   "dependencies": {
-    "puppeteer": "^4.0.1"
+    "puppeteer": "^5.2.1"
   }
 }
